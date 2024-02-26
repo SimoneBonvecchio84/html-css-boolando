@@ -16,23 +16,15 @@ body {
     --red-color:rgb(255 0 0);
     --white-color:white ;
     --grey-color:rgb(160 160 160);
+    --orange-color:rgb(255 105 0) ;
     
-    
-}
-
-a {
-    text-decoration: none;
-    color:var(--white-color);
-}
-
-.a-nav-font {
-    font-size: .7rem;
     
 }
 
 .display-flex {
     display: flex;
-    flex-direction: row;
+   
+    
     
 }
 
@@ -47,6 +39,25 @@ img {
     max-width: 100%;
 }
 
+ul {
+    list-style: none;
+    line-height: 50px;
+    gap: 10px;
+}
+
+a {
+    color:var(--white-color);
+    text-decoration: none;
+}
+
+.a-nav-font {
+    font-size: .7rem;
+}
+.fa-solid {
+    color: var(--white-color);
+    font-size: 0.5rem;
+}
+
 /*CONTAINER*/
 
 
@@ -55,27 +66,43 @@ img {
 header {
     width: 100%;
     background-color:rgb(255 105 0) ;
-    height: 40px;
+    /*debug*/
+    height: 50px;
+    
    
 }
 
-.nav-w-m-c {
-    width: calc(100% / 3);
-    justify-content: center;
+.container-nav {
+    margin: 0 auto;
+    width: 790px;
+    /*debug*/
+    height: 50px;
+    background-color: var(--white-color);
 }
 
-.ul-nav {
-    list-style-type: none;
-    gap: 10px;
+.items {
+    width: calc(100% / 3);
+   
+    background-color: var(--orange-color);
+}
+
+.logo-items {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    
-    
 }
 
 .img-logo {
-    padding: 5px;
-    max-width: 50%;
+    
+    max-width: 40%;
+   
+    
 }
+
+
+
+
+
 
 /*MAIN*/
 
@@ -84,7 +111,7 @@ header {
 main {
     margin: 0 auto;
     margin-top: 30px;
-    width: 70%;
+    width: 800px;
 }
 
 .container-card {
@@ -171,11 +198,26 @@ h5 {
 footer {
     width: 100%;
     /*debug*/
-    min-height: 100px;
+    min-height: 80px;
     background-color: black;
     margin-top: 50px;
 }
 
+
+.items-footer {
+   margin: 0 auto; 
+   width: 790px;
+   background-color: var(--white-color); 
+}
+
+.items-child {
+    width: 50%;
+    border: 1px solid black;
+}
+
+hr {
+    color: var(--white-color);
+}
 
 
 
