@@ -5,3 +5,179 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --red-color:rgb(255 0 0);
+    --white-color:white ;
+    --grey-color:rgb(160 160 160);
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color:var(--white-color);
+}
+
+.a-nav-font {
+    font-size: .7rem;
+    
+}
+
+.display-flex {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.display-flex-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+/*CONTAINER*/
+
+
+/*HEADER*/
+
+header {
+    width: 100%;
+    background-color:rgb(255 105 0) ;
+    height: 30px;
+   
+}
+
+.nav-w-m-c {
+    width: calc(100% / 3);
+    justify-content: center;
+}
+
+.ul-nav {
+    list-style-type: none;
+    gap: 10px;
+    align-items: center;
+    
+    
+}
+
+.img-logo {
+    padding: 5px;
+    max-width: 50%;
+}
+
+/*MAIN*/
+
+/*container card*/
+
+main {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 80%;
+}
+
+.container-card {
+    width: calc(100% / 3);
+    padding: 10px;
+    
+}
+
+.card-img {
+    position: relative;
+    width: 100%;
+    /* width: calc(100% / 3); */
+    /* padding: 10px; */
+}
+
+.img-front {
+    display: block;
+}
+
+.img-back {
+    display: none;
+}
+
+.box-img:hover .img-front {
+    display: none;
+}
+
+.box-img:hover .img-back {
+    display:block ;
+}
+
+.box-heart {
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    font-size: 1.2rem;
+    background-color:var(--white-color);
+}
+
+.discount {
+    position: absolute;
+    left:0px;
+    background-color: var(--red-color);
+    bottom: 30px;
+    font-size: 0.5rem;
+    color: var(--white-color);
+    padding: 3px;
+}
+
+.sostenibilita {
+    font-size: 0.5rem;
+    position: absolute;
+    bottom: 30px;
+    left:  30px;
+    background-color: green;
+    padding: 3px;
+    color: var(--white-color);
+
+}
+
+.last {
+    left: 0;
+}
+   
+
+h6 {
+    font-size: 0.5rem;
+    color: var(--grey-color); 
+}
+
+h5 {
+    font-size: 0.6rem; 
+}
+
+.price {
+    color: var(--red-color);
+}
+.crossed {
+    color:black;
+    margin-left: 2px;
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
