@@ -43,6 +43,7 @@ ul {
     list-style: none;
     line-height: 50px;
     gap: 10px;
+    
 }
 
 a {
@@ -74,7 +75,7 @@ header {
 
 .container-nav {
     margin: 0 auto;
-    width: 790px;
+    width: 780px;
     /*debug*/
     height: 50px;
     background-color: var(--white-color);
