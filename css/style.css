@@ -16,23 +16,17 @@ body {
     --red-color:rgb(255 0 0);
     --white-color:white ;
     --grey-color:rgb(160 160 160);
-    --orange-color:rgb(255 105 0) ;
-    
-    
+    --orange-color:rgb(255 105 0) ;    
 }
 
 .display-flex {
-    display: flex;
-   
-    
-    
+    display: flex;    
 }
 
 .display-flex-wrap {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
 }
 
 img {
@@ -42,8 +36,7 @@ img {
 ul {
     list-style: none;
     line-height: 50px;
-    gap: 10px;
-    
+    gap: 10px;    
 }
 
 a {
@@ -54,14 +47,13 @@ a {
 .a-nav-font {
     font-size: .7rem;
 }
+
 .fa-solid {
     color: var(--white-color);
     font-size: 0.5rem;
 }
 
 /*CONTAINER*/
-
-
 /*HEADER*/
 
 header {
@@ -70,10 +62,9 @@ header {
     height: 50px;
     position: sticky;
     top: 0;
-    z-index: 999;
-    
-   
+    z-index: 999;   
 }
+
 /* container-nav */
 .container-nav {
     margin: 0 auto;
@@ -105,11 +96,9 @@ header {
 }
 
 /*MAIN*/
-
 /*main*/
 main {
     margin: 0 auto;
-    
     margin-top: 30px;
     width: 800px;
 }
@@ -174,7 +163,6 @@ main {
     background-color: green;
     padding: 3px;
     color: var(--white-color);
-
 }
 
 /* last */
@@ -215,7 +203,6 @@ footer {
 .items-footer {
    margin: 0 auto; 
    width: 790px;
-   
 }
 
 /* ITEMS_CHILD */
@@ -237,7 +224,6 @@ footer {
 .ul-footer,
 .ul-footer-right {
   line-height: 20px;
-  
 }
 
 .ul-footer-right {
@@ -248,11 +234,9 @@ footer {
     font-size: 0.5rem;
 } 
 
-
-h6 {
+.h6-footer {
     margin-left: 10px;
     color: var(--white-color);
-    
 } 
 
 i {
